@@ -1,0 +1,8 @@
+build/
+.idea/
+.vscode/
+CMakeLists.txt.user
+
+.vs/
+out/
+eigen3/
