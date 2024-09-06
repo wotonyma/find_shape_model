@@ -51,9 +51,4 @@ add_library(findShapeModel STATIC ${LIB_SRC} )
 target_link_libraries(findShapeModel ${OpenCV_LIBS})
 target_link_libraries(findShapeModel cuda_icp)
 
-# test use lib exe
-add_executable(${PROJECT_NAME}_test "test.cpp")
-target_link_libraries(${PROJECT_NAME}_test ${OpenCV_LIBS})
-target_link_libraries(${PROJECT_NAME}_test findShapeModel)
-
 
